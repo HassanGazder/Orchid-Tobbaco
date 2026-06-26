@@ -1,11 +1,9 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import featureVideoFile from '../Videos/Video one.mp4';
-import secondVideoFile from '../Videos/video2.mp4';
 
 const heroVideoId = 'DmDS3W4C_nk';
 const heroVideoSrc = `https://www.youtube.com/embed/${heroVideoId}?enablejsapi=1&autoplay=1&mute=1&loop=1&controls=0&rel=0&modestbranding=1&playlist=${heroVideoId}`;
-const featureVideoSrc = featureVideoFile;
-const secondVideoSrc = secondVideoFile;
+const featureVideoSrc = 'blob:https://www.manchestercigarettes.com/868715e3-b933-44df-9037-8d3fc173863a';
+const secondVideoSrc = 'blob:https://www.manchestercigarettes.com/36049056-9570-46fa-87e5-cefe9a1088f4';
 
 const packVariants = [
   {
